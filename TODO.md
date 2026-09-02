@@ -1,13 +1,5 @@
 # Power Plant Monitoring System — Analytics Project
 
-## Phase 1 — Project Definition
-
-* [ ] Define the power plant scenario
-* [ ] Define the business/operational questions
-* [ ] Identify the key KPIs
-* [ ] Define the monitoring period
-* [ ] Define the equipment/components being analyzed
-* [ ] Define what constitutes normal vs abnormal operation
 
 ### Key questions to answer
 
@@ -21,7 +13,7 @@
 
 ---
 
-## Phase 2 — Data Collection & Understanding
+## Phase 1 — Data Collection & Understanding
 
 * [ ] Identify available datasets
 * [ ] Define the data sources
@@ -51,7 +43,7 @@
 
 ---
 
-## Phase 3 — Data Cleaning & Preparation
+## Phase 2 — Data Cleaning & Preparation
 
 * [ ] Standardize timestamps
 * [ ] Handle missing values
@@ -66,7 +58,7 @@
 
 ---
 
-## Phase 4 — Exploratory Data Analysis
+## Phase 3 — Exploratory Data Analysis
 
 * [ ] Analyze power generation over time
 * [ ] Analyze generation by equipment
@@ -82,7 +74,7 @@
 
 ---
 
-## Phase 5 — KPI Analysis
+## Phase 4 — KPI Analysis
 
 ### Generation
 
@@ -118,7 +110,7 @@
 
 ---
 
-## Phase 6 — Anomaly & Incident Analysis
+## Phase 5 — Anomaly & Incident Analysis
 
 * [ ] Define abnormal operating conditions
 * [ ] Identify sensor anomalies
@@ -132,7 +124,7 @@
 
 ---
 
-## Phase 7 — Dashboard
+## Phase 6 — Dashboard
 
 ### Plant Overview
 
@@ -173,7 +165,7 @@
 
 ---
 
-## Phase 8 — Insights & Recommendations
+## Phase 7 — Insights & Recommendations
 
 * [ ] Identify the biggest operational inefficiencies
 * [ ] Identify worst-performing equipment
@@ -187,7 +179,7 @@
 
 ---
 
-## Phase 9 — Final Deliverables
+## Phase 8 — Final Deliverables
 
 * [ ] Cleaned dataset
 * [ ] Data dictionary
