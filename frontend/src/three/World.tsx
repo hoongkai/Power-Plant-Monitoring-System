@@ -1,6 +1,7 @@
 import { Canvas } from '@react-three/fiber'
 import { Ground } from './environment/Ground'
 import { ControlDesk } from './environment/ControlDesk'
+import { Monitor } from './environment/Monitor'
 
 export function World() {
   return (
@@ -23,6 +24,7 @@ export function World() {
 
       <Ground />
       <ControlDesk />
+      <Monitor />
     </Canvas>
   )
 }
