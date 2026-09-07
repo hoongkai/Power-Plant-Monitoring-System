@@ -1,3 +1,5 @@
+import { DashboardAnchor } from '../dashboard/DashboardAnchor'
+
 export function Monitor() {
   return (
     <group position={[0, 2.05, -0.35]}>
@@ -8,15 +10,17 @@ export function Monitor() {
       </mesh>
 
       {/* Screen */}
-      <mesh position={[0, 0, 0.11]}>
-        <boxGeometry args={[2.25, 1.35, 0.02]} />
-        <meshStandardMaterial
-          color="#07141a"
-          emissive="#062630"
-          emissiveIntensity={0.5}
-        />
-      </mesh>
-
+        <DashboardAnchor>
+        <mesh position={[0, 0, 0.11]}>
+            <boxGeometry args={[2.25, 1.35, 0.02]} />
+            <meshStandardMaterial
+            color="#07141a"
+            emissive="#062630"
+            emissiveIntensity={0.5}
+            />
+        </mesh>
+        </DashboardAnchor>
+        
       {/* Monitor stand */}
       <mesh position={[0, -1.0, 0]} castShadow>
         <boxGeometry args={[0.18, 0.6, 0.18]} />
