@@ -2,6 +2,7 @@ import { Canvas } from '@react-three/fiber'
 import { Ground } from './environment/Ground'
 import { ControlDesk } from './environment/ControlDesk'
 import { Character } from './character/Character'
+import { SolarArray } from './solar/SolarArray'
 
 export function World() {
   return (
@@ -25,6 +26,7 @@ export function World() {
       <Ground />
       <ControlDesk />
       <Character />
+      <SolarArray />
     </Canvas>
   )
 }
