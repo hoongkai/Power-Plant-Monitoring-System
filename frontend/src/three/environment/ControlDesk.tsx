@@ -1,4 +1,4 @@
-import { Group } from 'three'
+import { Monitor } from './Monitor'
 
 export function ControlDesk() {
   return (
@@ -26,6 +26,9 @@ export function ControlDesk() {
         <boxGeometry args={[2.6, 0.45, 0.15]} />
         <meshStandardMaterial color="#1c2226" />
       </mesh>
+
+      {/* Monitor */}
+      <Monitor />
     </group>
   )
 }

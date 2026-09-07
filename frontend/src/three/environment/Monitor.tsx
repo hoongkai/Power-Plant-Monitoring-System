@@ -2,7 +2,7 @@ import { DashboardAnchor } from '../dashboard/DashboardAnchor'
 
 export function Monitor() {
   return (
-    <group position={[0, 2.05, -0.35]}>
+    <group position={[0, 2.55, -0.35]}>
       {/* Monitor body */}
       <mesh castShadow>
         <boxGeometry args={[2.5, 1.6, 0.18]} />
@@ -20,7 +20,7 @@ export function Monitor() {
             />
         </mesh>
         </DashboardAnchor>
-        
+
       {/* Monitor stand */}
       <mesh position={[0, -1.0, 0]} castShadow>
         <boxGeometry args={[0.18, 0.6, 0.18]} />
